@@ -1,0 +1,70 @@
+h1 {
+    text-align: center;
+    font: bold 4em "Marko One", Georgia, serif;
+    color: olive;
+    text-shadow: 0.05em 0.05em .1em lightslategray;
+}
+
+h2 {
+    text-align: center;
+    font-size: 1.5em;
+    color: sienna;
+    margin: 0;
+    padding: 0;
+}
+
+.clear {
+    clear: both;
+  }
+
+.outer_div {
+    display: flex;
+    justify-content: space-between;
+}
+  
+.left_div {
+    flex: 1;
+    margin: 0 10px;
+    padding: 10%;
+    padding-right: 1%;
+    padding-top: 5%;
+}
+
+.right_div {
+    flex: 1;
+    margin: 0 10px;
+    padding: 10%;
+    padding-left: 1%;
+    padding-top: 5%;
+}
+
+.left_div_img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.right_div_img {
+    float: left;
+    width: 60%;
+    margin-right: 20px;
+}
+
+section, aside, p {
+    font-family: Georgia, serif;
+}
+
+footer {
+    background-color: #7b7272;
+    color: #060202;
+    font: 0.75em "Marko One", Georgia, serif;
+    padding: 10px;
+    text-align: center;
+    bottom: 0;
+    width: 100%;
+  }
+
+  header {
+    padding: 20px;
+    text-align: center;
+  }
